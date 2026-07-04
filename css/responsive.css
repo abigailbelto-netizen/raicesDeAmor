@@ -1,0 +1,115 @@
+@media (max-width: 1020px) {
+  .story-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .story-card.family-memory {
+    grid-column: span 2;
+  }
+
+  .details-section {
+    grid-template-columns: 1fr;
+  }
+
+  .details-section > .detail-card,
+  .dress-heading,
+  .dress-grid {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .envelope {
+    height: 188px;
+    transform: scale(.86);
+    width: 310px;
+  }
+
+  .intro-hint {
+    max-width: 260px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3.4rem, 18vw, 5.4rem);
+  }
+
+  .hero-content {
+    transform: translateY(-9vh);
+  }
+
+  .brand-title {
+    letter-spacing: .15em;
+  }
+
+  .section {
+    padding: 4.5rem 1rem;
+  }
+
+  .roots-grid,
+  .guest-fields,
+  fieldset,
+  .admin-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-stage {
+    min-height: auto;
+  }
+
+  .story-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .story-card.family-memory {
+    grid-column: auto;
+  }
+
+  .portrait-grid,
+  .favorite-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .countdown {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline span {
+    font-size: 1.45rem;
+  }
+
+  .admin-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 460px) {
+  .palette {
+    flex-wrap: wrap;
+  }
+
+  .brand-title {
+    letter-spacing: .12em;
+  }
+
+  .timeline li {
+    min-height: auto;
+  }
+
+  .countdown strong {
+    font-size: 2.7rem;
+  }
+}

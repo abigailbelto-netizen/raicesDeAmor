@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Espacio para fotografia">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d9c8ac"/>
+      <stop offset=".55" stop-color="#9fc9d5"/>
+      <stop offset="1" stop-color="#7c8762"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="614" cy="210" r="92" fill="#e6c36a" opacity=".55"/>
+  <path d="M0 770 C120 690 240 730 360 660 C520 570 650 626 800 540 L800 1000 L0 1000 Z" fill="#6f5241" opacity=".42"/>
+  <path d="M0 830 C180 740 310 790 466 712 C610 640 704 664 800 602 L800 1000 L0 1000 Z" fill="#26302e" opacity=".28"/>
+  <g fill="none" stroke="#fbfaf7" stroke-width="7" opacity=".78">
+    <path d="M300 530 C292 418 305 334 400 248 C495 334 508 418 500 530"/>
+    <path d="M400 248 C342 246 304 224 268 178"/>
+    <path d="M400 248 C458 246 496 224 532 178"/>
+  </g>
+  <text x="400" y="892" fill="#fbfaf7" font-family="Georgia, serif" font-size="54" text-anchor="middle">Fotografia</text>
+</svg>

@@ -1,0 +1,99 @@
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes equalize {
+  from { height: 7px; }
+  to { height: 18px; }
+}
+
+@keyframes cue {
+  0%, 100% { opacity: .45; transform: translateY(0) rotate(45deg); }
+  50% { opacity: 1; transform: translateY(10px) rotate(45deg); }
+}
+
+.scroll-cue {
+  animation: cue 1.7s ease-in-out infinite;
+}
+
+.love-tree .tree-roots path,
+.love-tree .tree-branches path {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+}
+
+.tree-stage.is-visible .tree-roots path {
+  animation: drawLine 1.2s ease forwards;
+}
+
+.tree-stage.is-visible .tree-trunk {
+  animation: growTrunk .9s .7s ease forwards;
+  opacity: 0;
+  transform: scaleY(.18);
+  transform-origin: center bottom;
+}
+
+.tree-stage.is-visible .tree-branches path {
+  animation: drawLine 1.1s 1.25s ease forwards;
+}
+
+.tree-stage.is-visible .tree-leaves circle {
+  animation: leafIn .55s ease forwards;
+  opacity: 0;
+  transform: scale(.55);
+  transform-origin: center;
+}
+
+.tree-stage.is-visible .tree-leaves circle:nth-child(1) { animation-delay: 1.85s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(2) { animation-delay: 1.93s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(3) { animation-delay: 2.01s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(4) { animation-delay: 2.09s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(5) { animation-delay: 2.17s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(6) { animation-delay: 2.25s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(7) { animation-delay: 2.33s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(8) { animation-delay: 2.41s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(9) { animation-delay: 2.49s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(10) { animation-delay: 2.57s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(11) { animation-delay: 2.65s; }
+.tree-stage.is-visible .tree-leaves circle:nth-child(12) { animation-delay: 2.73s; }
+
+@keyframes drawLine {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes growTrunk {
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes leafIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

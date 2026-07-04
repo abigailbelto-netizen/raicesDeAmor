@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Recuerdo familiar">
+  <rect width="1200" height="900" fill="#fbfaf7"/>
+  <circle cx="240" cy="190" r="170" fill="#9fc9d5" opacity=".55"/>
+  <circle cx="940" cy="230" r="210" fill="#e6c36a" opacity=".35"/>
+  <path d="M120 742 C220 596 320 558 440 682 C540 500 700 492 820 674 C930 548 1060 608 1120 744" fill="none" stroke="#7c8762" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#6f5241" opacity=".72">
+    <circle cx="440" cy="390" r="68"/>
+    <circle cx="600" cy="350" r="78"/>
+    <circle cx="770" cy="392" r="68"/>
+  </g>
+  <path d="M0 792 C180 760 300 800 500 746 C700 690 910 770 1200 700 L1200 900 L0 900 Z" fill="#d9c8ac"/>
+  <text x="600" y="824" fill="#6f5241" font-family="Georgia, serif" font-size="58" text-anchor="middle">Familia, fe y gratitud</text>
+</svg>

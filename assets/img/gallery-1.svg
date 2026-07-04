@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Recuerdo de jardin">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#9fc9d5"/>
+      <stop offset=".5" stop-color="#d9c8ac"/>
+      <stop offset="1" stop-color="#7c8762"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".78" cy=".18" r=".28">
+      <stop offset="0" stop-color="#fff4bf"/>
+      <stop offset="1" stop-color="#e6c36a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+  <path d="M0 690 C170 610 270 650 430 590 C630 514 800 594 980 514 C1080 470 1140 486 1200 450 L1200 900 L0 900 Z" fill="#6f5241" opacity=".42"/>
+  <path d="M0 760 C220 670 380 730 560 650 C760 560 950 650 1200 560 L1200 900 L0 900 Z" fill="#26302e" opacity=".24"/>
+  <g fill="none" stroke="#fbfaf7" stroke-width="10" opacity=".7">
+    <path d="M590 660 C560 520 575 400 600 286 C625 400 640 520 610 660"/>
+    <path d="M600 370 C500 332 430 268 386 172"/>
+    <path d="M600 360 C720 318 790 240 842 138"/>
+    <path d="M596 455 C505 446 420 410 340 338"/>
+    <path d="M604 452 C710 428 804 388 890 310"/>
+  </g>
+  <text x="600" y="806" fill="#fbfaf7" font-family="Georgia, serif" font-size="64" text-anchor="middle">Raices de Amor</text>
+</svg>
